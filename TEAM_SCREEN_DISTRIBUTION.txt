@@ -1,0 +1,262 @@
+═══════════════════════════════════════════════════════════════════════════════
+                    SALAMTAK APP - SCREEN DISTRIBUTION
+                         Team Member Assignments
+═══════════════════════════════════════════════════════════════════════════════
+
+Distribution Strategy:
+- Balanced by complexity (lines of code, logic, API calls)
+- Balanced by content (mix of simple and complex screens)
+- Each member gets ~3-4 screens
+- Total: 20 screens across 5 team members
+
+═══════════════════════════════════════════════════════════════════════════════
+
+👤 AHMED SHERIF
+═══════════════════════════════════════════════════════════════════════════════
+
+1. 📱 report_problem_screen.dart (845 lines) ⭐⭐⭐⭐⭐
+   - COMPLEXITY: Very High
+   - Features: Image upload, voice input, location picker, image classification
+   - Forms, validation, file handling, speech-to-text
+   - Path: lib/screens/user/report_problem_screen.dart
+
+2. � order_history_screen.dart (396 lines) ⭐⭐⭐
+   - COMPLEXITY: Medium-High
+   - Features: Order list, status tracking, Firestore streams
+   - StreamBuilder, order details
+   - Path: lib/screens/user/order_history_screen.dart
+
+3. � services_screen.dart (256 lines) ⭐⭐
+   - COMPLEXITY: Medium-Low
+   - Features: Problem type selection, navigation cards
+   - Simple navigation UI with cards
+   - Path: lib/screens/user/services_screen.dart
+
+TOTAL: 3 screens | Complexity: Very High + Medium-High + Medium-Low = BALANCED
+Lines: 1,497
+
+═══════════════════════════════════════════════════════════════════════════════
+
+👤 AHMED OSSAMA
+═══════════════════════════════════════════════════════════════════════════════
+
+1. 🏠 admin_home_screen.dart (1,027 lines) ⭐⭐⭐⭐⭐
+   - COMPLEXITY: Very High
+   - Features: Admin dashboard, reports management, map view, filters
+   - Real-time data, Firestore streams, complex UI
+   - Path: lib/screens/admin/admin_home_screen.dart
+
+2. � product_details_screen.dart (594 lines) ⭐⭐⭐⭐
+   - COMPLEXITY: High
+   - Features: Product display, reviews system, add to cart
+   - StreamBuilder, rating system, form handling
+   - Path: lib/screens/user/product_details_screen.dart
+
+TOTAL: 2 screens | Complexity: Very High + High = BALANCED
+Lines: 1,621
+
+═══════════════════════════════════════════════════════════════════════════════
+
+👤 AHMED ELDARAWI
+═══════════════════════════════════════════════════════════════════════════════
+
+1. 📝 signup_screen.dart (494 lines) ⭐⭐⭐⭐
+   - COMPLEXITY: High
+   - Features: User registration, form validation, Firebase Auth
+   - Multiple input fields, password validation, error handling
+   - Path: lib/screens/signup_screen.dart
+
+2. 👤 account_screen.dart (325 lines) ⭐⭐⭐
+   - COMPLEXITY: Medium
+   - Features: User profile, logout, settings
+   - SharedPreferences, navigation
+   - Path: lib/screens/user/account_screen.dart
+
+3. 🛒 cart_screen.dart (381 lines) ⭐⭐⭐
+   - COMPLEXITY: Medium
+   - Features: Cart management, quantity controls, price calculations
+   - Provider integration, dynamic list
+   - Path: lib/screens/user/cart_screen.dart
+
+4. 🌐 language_screen.dart (151 lines) ⭐
+   - COMPLEXITY: Low
+   - Features: Language selection (Arabic/English)
+   - Simple UI with radio buttons
+   - Path: lib/screens/language_screen.dart
+
+TOTAL: 4 screens | Complexity: High + Medium + Medium + Low = BALANCED
+Lines: 1,351
+
+═══════════════════════════════════════════════════════════════════════════════
+
+👤 NOUR
+═══════════════════════════════════════════════════════════════════════════════
+
+1. 📊 problem_report_screen.dart (564 lines) ⭐⭐⭐⭐
+   - COMPLEXITY: High
+   - Features: View submitted reports, image display, location
+   - Similar to report_problem but view-only
+   - Path: lib/screens/user/problem_report_screen.dart
+
+2. � dashboard_screen.dart (481 lines) ⭐⭐⭐⭐
+   - COMPLEXITY: High
+   - Features: User statistics, report counts, status overview
+   - Data aggregation, responsive cards (RECENTLY FIXED!)
+   - Path: lib/screens/user/dashboard_screen.dart
+
+3. 🔐 login_screen.dart (332 lines) ⭐⭐⭐
+   - COMPLEXITY: Medium
+   - Features: User authentication, form validation
+   - Firebase Auth, navigation, error handling
+   - Path: lib/screens/login_screen.dart
+
+4. 🏠 user_home_screen.dart (145 lines) ⭐
+   - COMPLEXITY: Low
+   - Features: Bottom navigation, tab management
+   - Simple navigation wrapper
+   - Path: lib/screens/user/user_home_screen.dart
+
+TOTAL: 4 screens | Complexity: High + High + Medium + Low = BALANCED
+Lines: 1,522
+
+═══════════════════════════════════════════════════════════════════════════════
+
+👤 AFIFI
+═══════════════════════════════════════════════════════════════════════════════
+
+1. 📦 orders_management_screen.dart (516 lines) ⭐⭐⭐⭐
+   - COMPLEXITY: High
+   - Features: Admin order management, status updates, filters
+   - Firestore operations, real-time updates
+   - Path: lib/screens/admin/orders_management_screen.dart
+
+2. � history_screen.dart (364 lines) ⭐⭐⭐
+   - COMPLEXITY: Medium
+   - Features: Report history, StreamBuilder, filtering
+   - Real-time data display
+   - Path: lib/screens/user/history_screen.dart
+
+3. 🛍️ products_screen.dart (378 lines) ⭐⭐⭐
+   - COMPLEXITY: Medium
+   - Features: Product grid, responsive layout (RECENTLY FIXED!)
+   - StreamBuilder, cart integration
+   - Path: lib/screens/user/products_screen.dart
+
+4. � checkout_screen.dart (264 lines) ⭐⭐
+   - COMPLEXITY: Medium-Low
+   - Features: Order placement, form validation, payment flow
+   - Firestore integration, cart clearing
+   - Path: lib/screens/user/checkout_screen.dart
+
+TOTAL: 4 screens | Complexity: High + Medium + Medium + Medium-Low = BALANCED
+Lines: 1,522
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📊 REMAINING SCREENS (Low Priority / Utility)
+═══════════════════════════════════════════════════════════════════════════════
+
+These can be assigned later or split among team members:
+
+1. 🧾 invoice_screen.dart (320 lines) ⭐⭐
+   - Simple invoice display
+   - Path: lib/screens/user/invoice_screen.dart
+
+2. 📦 products_management_screen.dart (314 lines) ⭐⭐⭐
+   - Admin product CRUD operations
+   - Path: lib/screens/admin/products_management_screen.dart
+
+3. 📄 screens.dart (7 lines) ⭐
+   - Export file only
+   - Path: lib/screens/user/screens.dart
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📈 DISTRIBUTION SUMMARY
+═══════════════════════════════════════════════════════════════════════════════
+
+Team Member      | Screens | Total Lines | Avg Complexity | Balance
+-----------------|---------|-------------|----------------|----------
+Ahmed Sherif     |    3    |   1,497     |   High         |   ✅
+Ahmed Ossama     |    2    |   1,621     |   Very High    |   ✅
+Ahmed Eldarawi   |    4    |   1,351     |   Med-High     |   ✅
+Nour             |    4    |   1,522     |   Med-High     |   ✅
+Afifi            |    4    |   1,522     |   Med-High     |   ✅
+
+TOTAL ASSIGNED: 17 screens | 7,513 lines
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🎯 COMPLEXITY LEGEND
+═══════════════════════════════════════════════════════════════════════════════
+
+⭐       = Very Low  (Simple UI, minimal logic)
+⭐⭐     = Low       (Basic forms, simple navigation)
+⭐⭐⭐   = Medium    (Forms + validation, API calls)
+⭐⭐⭐⭐ = High      (Complex logic, multiple features)
+⭐⭐⭐⭐⭐ = Very High (Advanced features, file handling, real-time data)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+✨ KEY FEATURES BY SCREEN TYPE
+═══════════════════════════════════════════════════════════════════════════════
+
+🔥 COMPLEX FEATURES:
+- Image upload & classification (report_problem_screen)
+- Voice input / Speech-to-text (report_problem_screen)
+- Location picker with maps (report_problem_screen)
+- Real-time Firestore streams (admin_home, history, orders)
+- Reviews & rating system (product_details_screen)
+- Cart management (cart_screen, checkout_screen)
+- Admin dashboards (admin_home_screen, orders_management)
+
+📱 STANDARD FEATURES:
+- Form validation
+- Firebase Authentication
+- Navigation
+- SharedPreferences
+- Provider state management
+- Responsive layouts
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📝 NOTES FOR TEAM MEMBERS
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ RECENTLY FIXED SCREENS (Ready to work on):
+   - products_screen.dart (Responsive layout fixed)
+   - dashboard_screen.dart (Overflow issue fixed)
+
+🔧 DEPENDENCIES TO UNDERSTAND:
+   - AppTheme (lib/theme.dart)
+   - AppLocalizations (lib/l10n/app_localizations.dart)
+   - DatabaseService (lib/services/database_service.dart)
+   - Models (lib/models/*.dart)
+   - Providers (lib/providers/*.dart)
+
+📚 TESTING DEVICES:
+   - iPhone SE (375x667)
+   - iPhone 12 Pro (390x844)
+   - iPad (768x1024)
+   - Desktop (1920x1080)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🚀 GETTING STARTED
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Clone the repository
+2. Run: flutter pub get
+3. Check your assigned screens in the paths above
+4. Read the screen code to understand current implementation
+5. Test on different devices using: flutter run -d edge
+6. Make improvements focusing on:
+   - Responsive design
+   - Error handling
+   - User experience
+   - Code quality
+   - Performance
+
+═══════════════════════════════════════════════════════════════════════════════
+                              END OF DISTRIBUTION
+═══════════════════════════════════════════════════════════════════════════════
